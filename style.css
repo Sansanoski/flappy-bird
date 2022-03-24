@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-color: #0D262D;
+    color: #fff;
+    height: 100%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url(../dom/fonts/Pixel.ttf);
+}
+
+[flappyzinho] {
+    position: relative;
+    height: 700px;
+    width: 1200px;
+    margin: 20px;
+    border: solid 5px dodgerblue;
+    background-color: deepskyblue;
+    overflow: hidden;
+}
